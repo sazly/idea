@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/post/post",
+    "pages/post/post-detail/post-detail",
+    "pages/post/post-comment/post-comment",
+    "pages/setting/setting",
+    "pages/setting/device/device",
+    "pages/setting/document/download/download"
+  ],
+    "window": {
+      "navigationBarBackgroundColor": "#4A6141",
+      "backgroundColor": "#4A6141"
+    },
+    "tabBar": {
+      "borderStyle": "white",
+      "selectedColor": "#4A6141",
+      "color": "#333",
+      "backgroundColor": "#fff",
+      "position": "bottom",
+      "list": [
+        {
+          "pagePath": "pages/post/post",
+          "text": "文字",
+          "iconPath": "images/icon/wx_app_news.png",
+          "selectedIconPath": "images/icon/wx_app_news@HL.png"
+        },
+        {
+          "pagePath": "pages/setting/setting",
+          "text": "设置",
+          "iconPath": "images/icon/wx_app_setting.png",
+          "selectedIconPath": "images/icon/wx_app_setting@HL.png"
+        }
+      ]
+    }
+ 
+}
